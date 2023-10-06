@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+}
+.film{
+  max-width: 300px;
+  transition: 0.4;
+ 
+}
+
+.film:hover{
+  scale:1.2;
+  cursor: pointer;
+  transition: 0.4;
+}
+
+
+.movie-detail{
+  min-height: 93vh;
+}
+
+.movie-detail div img{
+  max-height: 450px;
+}
